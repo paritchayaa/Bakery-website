@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src='register.js'></script>
+    <script src='../db/db_user.js'></script>
+</head>
+<body>
+
+    <form name="register" id="register" action="loginsnow.html">
+
+<div><div class="snowflakes" aria-hidden="true">
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❆
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❆
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❆
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+  </div>
+  <div class="containerbox">
+    <div class="leftpicture">
+        <img src="pic/bread.png" class="bread" alt="bread">
+    </div>
+    <div class="rightbox">
+
+        <div id=container>
+        
+            <form action="/addDB" method="post" accept-charset="utf-8" class="form">
+
+        <h1>CREAT ACCOUNT</h1>
+            First name*:
+            <br>
+            <input type="text" name="firstname" placeholder="Type here to add     0/50" required>
+            <br><br>
+            Last name*:
+            <br>
+            <input type="text" name="lastname" placeholder="Type here to add     0/50" required>
+            <br><br>
+            Username*: 
+            <br>
+            <input type="text" name="username" placeholder="Type here to add     0/30" required>
+            <br><br>
+            Password*: 
+            <br>
+            <input id="password" type="password" name="password" placeholder="Type here to add     0/30" required>
+            <br><br>
+            Retype Password*: 
+            <br>
+            <input id="repassword" type="password" name="repassword" placeholder="Type here to add     0/30" required>
+            <br><br>
+            Email
+            <br>
+            <input type="email" name="email" placeholder="Type here to add                    0/50" >
+            <br><br>
+            <div class="textform">
+                <div class="form">
+                    Gender:
+                    <br>
+                    <input type="gender" name="Gender" placeholder=" Type here to add     0/10">
+                </div>
+                <div class="form1">
+                    Age:
+                    <br>
+                    <input type="number" name="age" placeholder=" 0/2" min="1" max="99">  
+                </div> 
+            </div>
+            <br>
+            <div class="textform">
+                <div class="form">
+                    Date of birth:
+                    <br>
+                    <input type="date" name="birthday" placeholder="mm/dd/yy">
+                </div>
+                <div class="form1">
+                    <img src="https://img.icons8.com/doodle/2x/fa314a/calendar--v2.png" class="cal" alt="calendar"> 
+                </div> 
+            </div> 
+            <br><br>
+            <input type="submit" value="Confirm">            
+            <input type="reset" value="Reset">
+
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+</form>
+</body>
+</html>

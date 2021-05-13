@@ -1,0 +1,39 @@
+.c1, .c2, .c3 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 50px;
+}
+
+@media (min-width: 768px) {
+  figure {
+    float: left;
+    padding-left: 32px;
+    position:-webkit-sticky;
+  }
+}
+  
+@media (min-width: 768px) {
+
+  .c2 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .c3 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.33333%;
+            flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+}
